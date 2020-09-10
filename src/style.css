@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    direction: rtl;
+    background-color: #f0f0f0;
+}
+.wrapper{
+    max-width: 1000px;
+    padding: 15px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    margin: 50px auto 25px;
+    width: 80%;
+}
+.inputs-wrapper{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color: #444;
+    flex-wrap: wrap;
+}
+.input-container{
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+.input-container label{
+    display: block;
+    margin-bottom: 5px;
+}
+.input-container input{
+    border-radius: 3px;
+    height: 25px;
+    width: 140px;
+    outline: unset;
+    border: solid 1px #ccc;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #444;
+}
+table ,th, td{
+    border: solid 1px #ccc;
+}
+th, td{
+    padding: 10px 5px;
+}
+.button-wrapper{
+    margin-bottom: 20px;
+}
+.button-wrapper button{
+    margin: auto;
+    display: block;
+}
+
+.table-container{
+    width: 100%;
+    overflow-x: auto;
+}
+/* @media screen and (max-width : 768px){
+    .input-container input{
+        width: 100px;
+    }
+} */
